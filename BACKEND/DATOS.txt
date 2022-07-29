@@ -1,4 +1,0 @@
-Mongo Atlas: 
-
-User: mern_user
-pass: B0Guy6e1agd2qpUv
