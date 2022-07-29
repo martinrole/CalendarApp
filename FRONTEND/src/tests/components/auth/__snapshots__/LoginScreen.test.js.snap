@@ -1,0 +1,124 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Prueba en <LoginScreen /> Debe mostrar el componente correctamente 1`] = `
+<div
+  className="container login-container"
+>
+  <div
+    className="row"
+  >
+    <div
+      className="col-md-6 login-form-1"
+    >
+      <h3>
+        Ingreso
+      </h3>
+      <form
+        onSubmit={[Function]}
+      >
+        <div
+          className="form-group"
+        >
+          <input
+            className="form-control"
+            name="loginCorreo"
+            onChange={[Function]}
+            placeholder="Correo"
+            type="text"
+            value="martinrole@hotmail.com"
+          />
+        </div>
+        <div
+          className="form-group"
+        >
+          <input
+            className="form-control"
+            name="loginContrasena"
+            onChange={[Function]}
+            placeholder="Contraseña"
+            type="password"
+            value="mar123"
+          />
+        </div>
+        <div
+          className="form-group"
+        >
+          <input
+            className="btnSubmit"
+            type="submit"
+            value="Ingresar"
+          />
+        </div>
+      </form>
+    </div>
+    <div
+      className="col-md-6 login-form-2"
+    >
+      <h3>
+        Registro
+      </h3>
+      <form
+        onSubmit={[Function]}
+      >
+        <div
+          className="form-group"
+        >
+          <input
+            className="form-control"
+            name="rNombre"
+            onChange={[Function]}
+            placeholder="Nombre"
+            type="text"
+            value="Tobby"
+          />
+        </div>
+        <div
+          className="form-group"
+        >
+          <input
+            className="form-control"
+            name="rCorreo"
+            onChange={[Function]}
+            placeholder="Correo"
+            type="email"
+            value="tobbias23@hotmail.com"
+          />
+        </div>
+        <div
+          className="form-group"
+        >
+          <input
+            className="form-control"
+            name="rContrasena"
+            onChange={[Function]}
+            placeholder="Contraseña"
+            type="password"
+            value="soyTobby1a"
+          />
+        </div>
+        <div
+          className="form-group"
+        >
+          <input
+            className="form-control"
+            name="rContrasena2"
+            onChange={[Function]}
+            placeholder="Repita la contraseña"
+            type="password"
+            value="soyTobby1a"
+          />
+        </div>
+        <div
+          className="form-group"
+        >
+          <input
+            className="btnSubmit"
+            type="submit"
+            value="Crear cuenta"
+          />
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+`;

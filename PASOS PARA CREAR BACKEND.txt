@@ -1,0 +1,35 @@
+CREAR UN BACKEND VIDEO 329:
+
+1 - En carpeta de backend colocar "npm init -y" para crear el package.json
+2 - En carpeta Backend crear el archivo index.js y colocar un console.log("hola") para validar que sirva
+3 - Instalar "npm i nodemon -g" que sirve para detectar cambios y vuelva a ejecutar automáticamente el comando node index.js
+4 - Ejecutar el comando "nodemon index.js" para comprobar que funciona el backend. Debe mostrar el console.log del punto 2
+5 - En archivo package.json en scripts, colocar "dev": "nodemon index.js",
+5 - En archivo package.json en scripts, colocar "start": "node index.js",
+
+
+----------------------
+INSTALAR EXPRESS.JS QUE ES UN FRAMEWORK PARA CREAR UN BACKEND QUE TIENE LOS ENDPOINTS PARA CONECTAR AL SERVIDOR
+
+1 - Instalar npm i express
+2 - Instalar npm i express-validator - Sirve para validar los datos enviados desde el Frontend que sean correctos
+3 - Instalar "npm i mongoose" e instalar "npm i bcryptjs" para encriptar contraseñas
+4 - Instalar "npm i jwt" para manejar la autenticaciòn de los usuarios
+4 - Crear el servidor en archivo index.js (Guiarse con archivo de proyecto calendar)
+5 - Crear carpeta public con el index.html
+6 - Instalar "npm i dotenv" para utilizar variables de entorno
+7 - Crear en la raíz del proyecto el archivo .env y colocar el puerto donde va a correr el proyecto
+
+-------------------------
+CREAR UNA BASE DE DATOS EN MONGO DB Y CONECTAR EN MONDO COMPASS
+
+Ctrl + r	Actualiza la base de datos en el programa Mongo Compass
+
+
+
+
+
+
+
+
+

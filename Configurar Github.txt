@@ -1,0 +1,19 @@
+Configurar Github
+
+1- Abrir una terminal de GitBash
+2 - Colocar "git config --global user.name martinrole"
+3 - Colocar "git config --global user.email martinrole@hotmail.com"
+4 - Confirmar que haya quedado bn con "git config --list" - Si salen datos está OK
+
+// Para guardar un repositorio Colocar
+
+1 - Abrir terminal en VS Code
+2 - Ubicarse a la ruta principal del proyecto que se desea subir
+3 - Colocar git init
+4 - Colocar git add . - Que subirá todo
+5 - Colocar git commit -m "Primer commit"
+6 - Confirmar que haya quedado bn con "git log" - Si sale información quiere decir que quedó bn
+
+// Heroku 
+user: martinrole@gmail.com
+pass: $up3rH3roKu;1a
